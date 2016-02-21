@@ -112,10 +112,15 @@ body {
 
 #about {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
+    min-height: 600px;
 }
 
 .profile-size {
-    width: 65%;
+    width: 100%;
 }
 
 
